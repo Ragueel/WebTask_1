@@ -1,0 +1,15 @@
+@import '../styles/_base.scss';
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-item{
+  flex-grow: 4;
+  margin-top: $margin_amount;
+  margin-bottom: $margin_amount;
+}
